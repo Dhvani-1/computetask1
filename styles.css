@@ -1,0 +1,441 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-image:url("C:\Users\dhvan\OneDrive\Desktop\Web deve\image shit\bg.png");
+}
+
+.navbar {
+    background: rgb(193, 183, 183);
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    padding-right: 0px;
+    width: 100px;
+}
+
+.navdiv ul{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navdiv li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+ul button {
+    margin-right:50px ;
+}
+
+.log{
+    background-color: transparent;
+    border: 0;
+}
+
+.sign{
+    background-color: transparent;
+}
+
+.login{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signin{
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px,0;
+}
+
+select{
+    border: 0;
+    font-size: 15px;
+}
+
+.left1{
+    
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    color: black;
+}
+
+.right1{
+    
+    display: inline-block;
+    height: 600px;
+    width: 500px;
+}
+
+.left1 h4{
+    color: rgb(243, 56, 56);
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.left1 .text1{
+    font-size: 75px;
+    margin: 5px;
+}
+
+.left1 .text2{
+    font-size: 15px;
+    margin: 5px;
+    color: rgb(59, 55, 55);
+}
+
+.extra-button{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.extra-button button{
+    background-color: rgb(255, 201, 24);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border: 0;
+    margin: 5px;
+}
+
+.right1 img{
+    height: 550px;
+    align-items: center;
+}
+
+.top1 h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.top1 h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.bottom1{
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right:50px;
+}
+
+.weather,.flight,.events,.custom{
+    
+    display: inline;
+    height: 225px;
+    width: 175px;
+    margin: 20px;
+    align-items: center;
+}
+
+.top2 h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.top2 h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.bottom2{
+    display: flex;
+    justify-content: center;
+}
+
+.italy,.uk,.europe{
+    height: 225px;
+    width: 175px;
+    border-radius: 4px;
+    margin-inline: 20px;
+}
+
+.italy,.uk,.europe img{
+    height: 225px;
+    width: 175px;
+}
+
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.info h5{
+    text-align: center; 
+    margin: 10px;
+}
+
+.info p{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.fourthSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 100px 150px 100px;
+}
+
+.left2{
+    display: inline-block;
+    height: 500px;
+    width: 650px;
+    color: black;
+}
+
+.right2{
+    background-color: rgb(251, 245, 245);
+    display: inline-block;
+    height: 300px;
+    width: 275px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.heading h4{
+    color:rgb(59, 55, 55) ;
+    margin: 5px 0px 0px 5px;
+    font-size: 20px;
+}
+.heading h1{
+    font-size: 60px;
+    margin: 5px;
+}
+
+.pic img{
+    height: 70px;
+    padding-left: 20px;
+}
+
+.choose,.reach,.payment{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.steps h5{
+    margin:5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.steps p{
+    margin: 10px ;
+}
+
+.steps{
+    width: 300px;
+    padding-left: 25px;
+}
+
+.details{
+    margin-top: 20px;
+}
+
+.greece_info h5{
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 12.5px;
+    margin-bottom: 10px;
+}
+
+.greece_info p{
+    font-size: 14px;
+    margin-left: 12.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fifthSection{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left3{
+    display: inline-block;
+    height: 175px;
+    width: 500px;
+}
+
+.right3{
+    display: inline-block;
+    height: 275px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.left3 h4{
+    font-size: 20px;
+    margin: 5px 0px 10px 10px;
+}
+
+.left3 h1{
+    font-size: 50px;
+    margin: 5px 0px 20px 10px;
+}
+
+.message p{
+        width: 360px;
+        font-size: 25px;
+        margin: 25px 40px 40px 40px;
+}
+
+.from h5{
+    margin: 25px 40px 2px 40px;
+    font-size: 18px;
+}
+
+.from p{
+    margin: 5px 40px 25px 40px;
+}
+.sixthSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.seventhSection{
+    width: 50%; /* or any width you prefer */
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: rgb(246, 244, 244);
+    height: 250px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+
+.subscribe {
+    padding:30px 30px 15px 30px;
+}
+
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    height: 175px;
+    width: 1200px;
+}
+
+.col1,.col2,.col3,.col4{
+    margin: 10px;
+}
+
+.col1 li,.col2 li,.col3 li,.col4 li{
+    list-style: none;
+}
+
+.col1 ul,.col2 ul,.col3 ul,.col4 ul{
+    padding: 0;
+}
+
+.col1{
+    height: 100px;
+    width: 200px;
+}
+
+.play-button {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(197, 56, 56);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .play-button::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    left: 20px;
+  }
+
+ .email{
+    display: flex;
+    justify-content: center;
+  }
+
+  .email-enter{
+    margin-right: 40px;
+    height: 30px;
+    width: 200px;
+  }
+
+  .subs-email{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(231, 41, 41);
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+
+.subscribe h2{
+    font-size: 30px;
+}
+
+.play-demo{
+    color: rgb(145, 138, 138);
+}
