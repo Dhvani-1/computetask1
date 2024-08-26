@@ -160,6 +160,12 @@ select{
     margin-right:50px;
 }
 
+.secondSection{
+    display: inline;
+    margin: auto;
+    width: 50%;
+}
+
 .weather,.flight,.events,.custom{
     
     display: inline;
