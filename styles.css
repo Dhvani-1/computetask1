@@ -156,8 +156,6 @@ select{
 .bottom1{
     display: inline-flex;
     justify-content: space-around;
-    margin-left: 300px;
-    margin-right:50px;
 }
 
 .secondSection{
